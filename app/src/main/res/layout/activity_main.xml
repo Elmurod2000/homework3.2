@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/et_email"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Email"
+       android:textSize="20sp"
+       android:layout_marginTop="32dp"
+       android:drawableStart="@drawable/ic_email"
+       android:padding="10dp"
+       android:drawablePadding="20dp"
+       android:layout_marginHorizontal="20dp"
+       android:textColor="@color/black"
+       android:background="@drawable/custom_input"
+       android:textColorHint="@color/black"
+       android:inputType="textEmailAddress"/>
+   <EditText
+       android:id="@+id/et_theme"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint=" String"
+       android:textSize="20sp"
+       android:layout_marginTop="32dp"
+       android:drawableStart="@drawable/ic_lines"
+       android:padding="10dp"
+       android:drawablePadding="20dp"
+       android:layout_marginHorizontal="20dp"
+       android:textColor="@color/black"
+       android:background="@drawable/custom_input"
+       android:textColorHint="@color/black"
+       android:inputType="textEmailAddress"/>
+   <EditText
+       android:id="@+id/et_message"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Message"
+       android:textSize="20sp"
+       android:layout_marginTop="32dp"
+       android:drawableStart="@drawable/ic_message"
+       android:padding="10dp"
+       android:drawablePadding="20dp"
+       android:layout_marginHorizontal="20dp"
+       android:textColor="@color/black"
+       android:background="@drawable/bg_squrae"
+       android:textColorHint="@color/black"
+       android:inputType="textEmailAddress"/>
+
+   <Button
+       android:id="@+id/btn_send"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="SEND"
+       android:textSize="26sp"
+       android:textStyle="bold"
+       android:layout_marginTop="100dp"
+       android:layout_marginHorizontal="36dp"
+       />
+<Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="NEXT"
+       android:textSize="26sp"
+       android:textStyle="bold"
+       android:layout_marginTop="180dp"
+       android:layout_marginHorizontal="36dp"
+       />
+
+</LinearLayout>
